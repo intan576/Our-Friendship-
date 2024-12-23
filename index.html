@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About my memories</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #222, #444);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #555;
+            padding: 20px;
+            border-bottom: 3px solid #777;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #e0e0e0;
+            text-shadow: 1px 1px 2px #000;
+        }
+        .gallery {
+            padding: 20px;
+        }
+        .photo-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center; /* Center the content */
+        }
+        .photo {
+            border: 5px solid #777;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background-color: #444;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            max-width: 400px; /* Ukuran maksimum gambar diperbesar */
+            margin: 0 10px; /* Jarak antara gambar */
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .photo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+        }
+        .caption {
+            margin: 10px 0;
+            color: #ccc;
+            font-size: 18px; /* Ukuran font lebih besar */
+            font-weight: bold;
+        }
+        .collage {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+            gap: 10px; /* Jarak antar foto */
+            margin-top: 20px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .collage .photo {
+            max-width: 100%; /* Menyesuaikan ukuran kolase */
+        }
+        .members {
+            padding: 20px;
+            background-color: #333;
+        }
+        h2 {
+            color: #e0e0e0;
+            margin-bottom: 20px;
+        }
+        .member-row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .member {
+            margin: 0 15px;
+            text-align: center;
+            flex: 0 0 50%; /* Set to 50% to display 2 members per row */
+        }
+        .member img {
+            width: 150px; /* Ukuran gambar anggota */
+            height: auto;
+            border: 3px solid #777;
+            border-radius: 10px;
+        }
+        .member-caption {
+            color: #ccc;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #555;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            color: #e0e0e0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .quote {
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Mengubah font menjadi Comic Sans */
+            color: #ccc;
+            margin: 20px;
+            font-size: 20px; /* Ukuran font */
+            text-align: center;
+        }
+        hr {
+            border: 1px solid #777; /* Warna garis */
+            margin: 20px 0; /* Jarak atas dan bawah garis */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HI! welcome to our memories!</h1>
+</header>
+
+<div class="gallery">
+    <div class="photo-row">
+        <div class="photo">
+            <img src="lover.jpg" alt="Foto Sahabat Utama">
+        </div>
+    </div>
+    <div class="caption">The Family of 🍻</div>
+</div>
+
+<div class="quote">
+    <p>Era putih abu-abu adalah waktu terbaik dalam kehidupan ini, dan disinilah kita banyak menemukan teman terbaik dari yang terbaik.</p>
+</div>
+<div class="quote">
+    <p>Disemua kegiatan yang terjadi digedung SMA, kita belajar yang dinamakan persahabatan. hari-harinya disekolah yang dipenuhi dengan candaan. Merencanakan kegiatan seru yang akan dilakukan seusai sekolah, atau  mencoba menyelesaikan tugas sekolah bersama hingga tengah malam. Masa seperti itu, akan menjadi bagian dari sebuah memori dikepala yang mungkin akan sulit dilupakan. Tentu saja, tidak selalu mudah. Konflik dan kesalahpahaman adalah salah satu sebab dari terciptanya saling belajar memaafkan dan lebih mengerti satu sama lain. Kesempatan ketika kita berhasil melewati masa sulit itu, justru membuat pertemanan ini menjadi lebih terikat. masa putih abu-abu ini pasti dipenuhi dengan mimpi dan harapan. Saat kita merayakan keberhasilan yang didapat oleh satu sama lain, seperti lulus ujian, atau mendapatkan prestasi, itu menjadi momen yang sangat sulit dilupakan, atau mungkin, tidak akan pernah terlupakan. Ketika, perpisahan itu tiba. Sebuah perpisahan untuk melanjutkan studi, atau mengejar karir. Rasa yang berjalan dialiran darah adalah rasa haru dan khawatir. Haru karena berhasil sampai dititik ini, dan khawatir karena takut tidak akan bertemu kembali. Meskipun kita tidak bertemu setiap hari lagi, semua yang pernah terjadi dimasa putih abu-abu akan selalu menyatu didalam hati kita. Mari kita simpan setiap tawa, cerita, dan momen yang berharga didalam hati dan ingatan kita.</p>
+</div>
+
+<hr>
+<div class="caption">BEBERAPA MOMENT YANG PERNAH KITA LALUI BERSAMA-SAMA</div>
+<hr>
+
+<div class="photo-row">
+    <div class="photo">
+        <img src="aaaaa.jpg" alt="Foto Sahabat 1">
+    </div>
+    <div class="photo">
+        <img src="aw.jpg" alt="Foto Sahabat 2">
+    </div>
+    <div class="photo">
+        <img src="kocak.jpg" alt="Foto Sahabat 3">
+    </div>
+</div>
+<div class="photo-row">
+    <div class="photo">
+        <img src="sma.jpg" alt="Foto Sahabat 4">
+    </div>
+    <div class="photo">
+        <img src="wkwkw.jpg" alt="Foto Sahabat 5">
+    </div>
+    <div class="photo">
+        <img src="bestie.jpg" alt="Foto Sahabat 6">
+    </div>
+    <div class="photo">
+        <img src="cumel.jpg" alt="Foto Sahabat 7">
+    </div>
+</div>
+
+<div class="collage">
+    <div class="photo">
+        <img src="cuaks.jpg" alt="Foto 8">
+    </div>
+    <div class="photo">
+        <img src="gatau.jpg" alt="Foto 9">
+    </div>
+    <div class="photo">
+        <img src="duh.jpg" alt="Foto 10">
+    </div>
+    <div class="photo">
+        <img src="comel.jpg" alt="Foto 11">
+    </div>
+    <div class="photo">
+        <img src="bioskop.jpg" alt="Foto 12">
+    </div>
+    <div class="photo">
+        <img src="smansa.jpg" alt="Foto 13">
+    </div>
+    <div class="photo">
+        <img src="tari.jpg" alt="Foto 14">
+    </div>
+    <div class="photo">
+        <img src="cinta.jpg" alt="Foto 15">
+    </div>
+    <div class="photo">
+        <img src="selebew.jpg" alt="Foto 16">
+    </div>
+</div>
+
+<div class="caption">Jangan pernah lupakan betapa berarti persahabatan ini. Setiap kenangan yang kita ciptakan adalah bagian tak terpisahkan dari hidup kita. Mari kita hargai setiap detik yang telah kita lalui bersama, karena persahabatan masa SMA adalah salah satu kenangan terindah yang akan kita bawa selamanya. Kita adalah bagian dari satu cerita yang indah, dan cerita ini akan terus hidup dalam ingatan kita.</div>
+
+<hr>
+<div class="members">
+    <h2>The Members</h2>
+    <div class="member-row">
+        <div class="member">
+            <img src="Imel.jpg" alt="Member 1">
+            <div class="member-caption">Imelia Maharani N.</div>
+        </div>
+        <div class="member">
+            <img src="Intan.jpg" alt="Member 2">
+            <div class="member-caption">Intan Julianti</div>
+        </div>
+    </div>
+    <div class="member-row">
+        <div class="member">
+            <img src="YUDERLI.jpg" alt="Member 3">
+            <div class="member-caption">Yudherli Nabila S.</div>
+        </div>
+        <div class="member">
+            <img src="Taniya.jpg" alt="Member 4">
+            <div class="member-caption">Taniya Rama Danni</div>
+        </div>
+    </div>
+    <div class="member-row">
+        <div class="member">
+            <img src="Fera.jpg" alt="Member 5">
+            <div class="member-caption">Fera Leony</div>
+        </div>
+        <div class="member">
+            <img src="Meta.jpg" alt="Member 6">
+            <div class="member-caption">Meta Tri Maharani</div>
+        </div>
+    </div>
+    <div class="member-row">
+        <div class="member">
+            <img src="Silfa.jpg" alt="Member 7">
+            <div class="member-caption">Silfa Febriansyari</div>
+        </div>
+        <div class="member">
+            <img src="Yolanda.jpg" alt="Member 8">
+            <div class="member-caption">Yolanda Adinda S.</div>
+        </div>
+    </div>
+    <div class="member-row">
+        <div class="member">
+            <img src="PEPA.jpg" alt="Member 9">
+            <div class="member-caption">Repa Julianti</div>
+        </div>
+        <div class="member">
+            <img src="FADELA.jpg" alt="Member 10">
+            <div class="member-caption">Andrea Fadela</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; Since 2021 - 2024</p>
+</footer>
+
+</body>
+</html>
